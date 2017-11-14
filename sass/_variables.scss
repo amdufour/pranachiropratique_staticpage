@@ -1,0 +1,38 @@
+//GRID
+$maxwidth:                              990px;
+$gutter:                                30px;
+$md:                                    768px;
+$sm:                                    544px;
+
+//COLORS
+$text:                                  #6B6C6E;
+$greenPale:                             #A5CD39;
+
+//FONT
+$font:                                  'Gotham light', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+$fontBold:                              'Gotham bold', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+$fontsize:                              16px;
+$lineheight:                            19px;
+
+@font-face {
+    font-family: 'Gotham light';
+    src: url('../fonts/aller/gotham-light-webfont.eot');
+    src: url('../fonts/aller/gotham-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aller/gotham-light-webfont.woff2') format('woff2'),
+         url('../fonts/aller/gotham-light-webfont.woff') format('woff'),
+         url('../fonts/aller/gotham-light-webfont.ttf') format('truetype'),
+         url('../fonts/aller/gotham-light-webfont.svg#gothambook') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham bold';
+    src: url('../fonts/aller/gotham-bold-webfont.eot');
+    src: url('../fonts/aller/gotham-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aller/gotham-bold-webfont.woff2') format('woff2'),
+         url('../fonts/aller/gotham-bold-webfont.woff') format('woff'),
+         url('../fonts/aller/gotham-bold-webfont.ttf') format('truetype'),
+         url('../fonts/aller/gotham-bold-webfont.svg#gothambook') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}

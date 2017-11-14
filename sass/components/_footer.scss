@@ -1,0 +1,90 @@
+footer {
+  position: relative;
+  overflow: hidden;
+  padding: 50px 0 500px;
+  font-size: 17px;
+  line-height: 21px;
+  color: #fff;
+  @media screen and (max-width: $sm) {
+    padding-bottom: 100px;
+  }
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6f8a26+0,a8ce4b+100 */
+  background: rgb(111,138,38); /* Old browsers */
+  background: -moz-linear-gradient(-45deg, rgba(111,138,38,1) 0%, rgba(168,206,75,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(111,138,38,1) 0%,rgba(168,206,75,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(111,138,38,1) 0%,rgba(168,206,75,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f8a26', endColorstr='#a8ce4b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+   -webkit-box-shadow: 0px -3px 25px 0px rgba(0,0,0,0.4);
+      -moz-box-shadow: 0px -3px 25px 0px rgba(0,0,0,0.4);
+           box-shadow: 0px -3px 25px 0px rgba(0,0,0,0.4);
+
+  .footer-left,
+  .footer-right {
+    position: relative;
+    z-index: 2;
+  }
+  ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+  .list-chiro {
+    font-family: $fontBold;
+    font-weight: bold;
+    li {
+      padding: 2px 0;
+    }
+  }
+  .liste-chiro-roles {
+    padding: 2px 0 2px 32px;
+  }
+  .list-contact {
+    li {
+      padding: 3px 0 15px 25px;
+      background-repeat: no-repeat;
+      &.phone {
+        background-image: url(../images/icon-phone.svg);
+        background-size: 16px auto;
+        background-position: 0 5px;
+      }
+      &.email {
+        background-image: url(../images/icon-mail.svg);
+        background-size: 15px auto;
+        background-position: 0 8px;
+      }
+      &.address {
+        background-image: url(../images/icon-location.svg);
+        background-size: 12px auto;
+        background-position: 2px 3px;
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+        &:hover, &:focus, &:visited {
+          color: #fff;
+        }
+      }
+    }
+    @media screen and (max-width: $md) {
+      padding-top: 16px;
+    }
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 72%;
+    width: 35%;
+    height: 100%;
+    background-image: url(../images/logo-footer.svg);
+    background-repeat: no-repeat;
+    background-position: right -32px;
+    background-size: 100% auto;
+    @media screen and (max-width: $md) {
+      left: 50%;
+      width: 60%;
+    }
+  }
+}

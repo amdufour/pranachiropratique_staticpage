@@ -1,0 +1,21 @@
+header {
+  h1 {
+    margin: 20px 0;
+    height: 215px;
+    text-indent: -9000em;
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0 0;
+    @media screen and (max-width: $md) {
+      height: 200px;
+      background-size: auto 200px;
+      background-position: center 0;
+    }
+    @media screen and (max-width: $sm) {
+      height: 150px;
+      background-size: auto 150px;
+      background-position: center 0;
+    }
+  }
+}
